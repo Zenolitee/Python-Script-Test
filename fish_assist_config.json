@@ -1,0 +1,21 @@
+{
+  "region_left": 561,
+  "region_top": 727,
+  "region_width": 790,
+  "region_height": 199,
+  "bobber_left": 517,
+  "bobber_top": 295,
+  "bobber_width": 944,
+  "bobber_height": 665,
+  "cast_x": 963,
+  "cast_y": 824,
+  "click_x": 956,
+  "click_y": 826,
+  "deadzone_px": 18,
+  "click_interval_s": 0.08,
+  "loop_sleep_s": 0.01,
+  "min_bar_area": 1200,
+  "min_fish_area": 80,
+  "bar_y_tolerance_px": 45,
+  "click_duration_s": 0.08
+}
