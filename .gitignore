@@ -6,5 +6,6 @@ env/
 
 # Local screenshots and manual test artifacts.
 *.png
+!images_desc/
+!images_desc/*.png
 click_test.html
-

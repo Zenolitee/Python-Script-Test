@@ -2,6 +2,22 @@
 
 Screen-based helper for a cyan-bar fishing minigame. It watches a calibrated screen region, detects the cyan control bar and dark fish marker, then taps when the fish is to the right/outside of the bar and stops tapping when the fish is to the left.
 
+## Screenshots
+
+The `images_desc` folder contains example screenshots showing the main parts of the automation:
+
+![Fishing Assist control panel](images_desc/Screenshot%202026-05-01%20213244.png)
+
+The control panel has three modes: `Catch`, `Bobber`, and `Fisher`. It also shows the calibrated fishing region, bobber region, and cast point.
+
+![Bobber preview with detection boxes](images_desc/Screenshot%202026-05-01%20213416.png)
+
+The bobber preview marks the red bobber, the prompt area, and the calculated `Reel` click target. This is used during the bobber phase before the minigame starts.
+
+![Minigame preview with fish and bar detection](images_desc/Screenshot%202026-05-01%20213602.png)
+
+The minigame preview marks the cyan bar in yellow and the fish marker in red. The script uses those detected positions to decide when to tap or release.
+
 ## Setup
 
 ```powershell
